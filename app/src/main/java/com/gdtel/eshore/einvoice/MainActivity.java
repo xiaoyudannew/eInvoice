@@ -12,7 +12,6 @@ import com.alibaba.fastjson.JSONArray;
 import com.chaquo.python.PyObject;
 import com.chaquo.python.Python;
 import com.chaquo.python.android.AndroidPlatform;
-import com.gdtel.eshore.einvoice.R;
 
 import java.io.File;
 import java.io.FileOutputStream;
