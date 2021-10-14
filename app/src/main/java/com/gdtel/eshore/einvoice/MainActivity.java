@@ -1,4 +1,4 @@
-package com.eshore;
+package com.gdtel.eshore.einvoice;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +12,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.chaquo.python.PyObject;
 import com.chaquo.python.Python;
 import com.chaquo.python.android.AndroidPlatform;
+import com.gdtel.eshore.einvoice.R;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String fileName_2 = "餐费发票.pdf";
-                copyAssetAndWrite(fileName_1);
+                copyAssetAndWrite(fileName_2);
                 File dataFile_2 = new File(getCacheDir(), fileName_2);
                 String filePath_2 = dataFile_2.getAbsolutePath();
 
